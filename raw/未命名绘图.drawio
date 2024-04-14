@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-14T13:54:51.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="gS_A__VdelqMw7xPbJnz" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-14T14:02:21.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XOlH5VeBVflhNdu6fWeq" version="24.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="989" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BOvwh2sCwzAacRZ0D2Zo-24" value="監控狀態全部上傳至" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="350" width="70" height="40" as="geometry" />
+          <mxGeometry x="550" y="350" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BOvwh2sCwzAacRZ0D2Zo-25" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Database_General.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="230" width="38" height="50" as="geometry" />
@@ -169,16 +169,6 @@
         <mxCell id="BOvwh2sCwzAacRZ0D2Zo-53" value="正式環境" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="578" y="-60" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BOvwh2sCwzAacRZ0D2Zo-54" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;exitX=0.628;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BOvwh2sCwzAacRZ0D2Zo-52">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="760" y="79" as="sourcePoint" />
-            <mxPoint x="947" y="78.66000000000003" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="743" y="80" />
-              <mxPoint x="947" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="BOvwh2sCwzAacRZ0D2Zo-55" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Database_General.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="977" y="54" width="38" height="50" as="geometry" />
         </mxCell>
@@ -218,7 +208,7 @@
           <mxGeometry x="907" y="-61.34" width="34" height="38.64" as="geometry" />
         </mxCell>
         <mxCell id="BOvwh2sCwzAacRZ0D2Zo-63" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Templates.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="861.76" y="34" width="34" height="38.64" as="geometry" />
+          <mxGeometry x="865" y="50" width="34" height="38.64" as="geometry" />
         </mxCell>
         <mxCell id="BOvwh2sCwzAacRZ0D2Zo-64" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Templates.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="925.88" y="-174.7" width="34" height="38.64" as="geometry" />
@@ -264,6 +254,21 @@
         </mxCell>
         <mxCell id="BOvwh2sCwzAacRZ0D2Zo-76" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.cluster_server" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="320" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BOvwh2sCwzAacRZ0D2Zo-77" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;exitX=0.578;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BOvwh2sCwzAacRZ0D2Zo-52">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="768" y="86.66" as="sourcePoint" />
+            <mxPoint x="965" y="86.66" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="739" y="87" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOvwh2sCwzAacRZ0D2Zo-78" value="監控狀態全部上傳至" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="861" y="86.94" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BOvwh2sCwzAacRZ0D2Zo-81" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://logowik.com/content/uploads/images/gitlab8368.jpg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="288" y="38.39" width="78" height="58.55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
