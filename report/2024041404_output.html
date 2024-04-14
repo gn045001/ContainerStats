@@ -1,0 +1,180 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Container Stats</title>
+        <style>
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+            }
+
+            #Table th, #displayTable th, #CPUTable th, #memoryTable th {
+            background-color: rgba(230, 13, 67, 0.493);
+                text-align: center;  /*將文字置中 */
+                padding: 5px; /* 調整框框大小 */
+            } 
+
+            #Table td, #displayTable td,
+            #CPUTable td, #memoryTable td {
+                text-align: center; /* 將文字置中 */
+                padding: 10px; /* 調整框框大小 */
+            }
+            
+            #displayTable, #CPUTable, #memoryTable {
+                width: 30%; /* 調整表格寬度 */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+        <h1>Container Execution Status</h1>
+        <table id="Table" border="1">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Container ID</th>
+                    <th>Container Name</th>
+                    <th>CPU Percentage</th>
+                    <th>Memory Usage</th>
+                    <th>Memory Percentage</th>
+                    <th>Network IO</th>
+                    <th>Block IO</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>2024-04-12 21:28:39</td>
+                    <td>42fdd60def11</td>
+                    <td>my-mongodb</td>
+                    <td>0.33%</td>
+                    <td>226.5MiB / 24.2GiB</td>
+                    <td>0.91%</td>
+                    <td>25.5MB / 74.7MB</td>
+                    <td>475kB / 751MB</td>
+                </tr>
+                
+                <tr>
+                    <td>2024-04-12 21:28:39</td>
+                    <td>744ae9d8b9ee</td>
+                    <td>trusting_montalcini</td>
+                    <td>0.07%</td>
+                    <td>763.9MiB / 24.2GiB</td>
+                    <td>3.08%</td>
+                    <td>9.78MB / 431kB</td>
+                    <td>205MB / 405MB</td>
+                </tr>
+                
+                <tr>
+                    <td>2024-04-12 21:28:39</td>
+                    <td>071b4b17a1b9</td>
+                    <td>gitlab</td>
+                    <td>71.64%</td>
+                    <td>6.213GiB / 24.2GiB</td>
+                    <td>75.67%</td>
+                    <td>64.1kB / 148kB</td>
+                    <td>1.42GB / 28.4GB</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <h1>Container Execution CPU Memory 狀態 </h1>
+        <table id="displayTable" border="1">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Container Name</th>
+                    <th>CPU Percentage</th>
+                    <th>Memory Usage</th>
+                    <th>Memory Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>2024-04-12 21:28:39</td>
+                    <td>my-mongodb</td>
+                    <td>0.33%</td>
+                    <td>226.5MiB / 24.2GiB</td>
+                    <td>0.91%</td>
+                </tr>
+                
+                <tr>
+                    <td>2024-04-12 21:28:39</td>
+                    <td>trusting_montalcini</td>
+                    <td>0.07%</td>
+                    <td>763.9MiB / 24.2GiB</td>
+                    <td>3.08%</td>
+                </tr>
+                
+                <tr>
+                    <td>2024-04-12 21:28:39</td>
+                    <td>gitlab</td>
+                    <td>71.64%</td>
+                    <td>6.213GiB / 24.2GiB</td>
+                    <td>75.67%</td>
+                </tr>
+                
+            </tbody>
+        </table>     
+        
+        <!-- CPU Percentage -->
+        <h1>Container Execution CPU 大於 50%須注意 </h1>
+        <table id="CPUTable" border="1">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Container Name</th>
+                    <th>CPU Percentage %</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>2024-04-12 21:28:39</td>
+                            <td>gitlab</td>
+                            <td>71.64%</td>
+                        </tr>
+                    
+                        
+            </tbody>
+        </table>        
+        <!-- memory Percentage -->
+        <h1>Container Execution memory 大於 50%須注意 </h1>
+        <table id="memoryTable" border="1">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Container Name</th>
+                    <th>memory Percentage %</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    
+                
+                    
+                
+                    
+                        <tr>
+                            <td>2024-04-12 21:28:39</td>
+                            <td>gitlab</td>
+                            <td>75.67%</td>
+                        </tr>
+                    
+                        
+            </tbody>
+        </table>
+        </div>
+    </body>
+    </html>
+    
